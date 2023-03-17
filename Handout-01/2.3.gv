@@ -1,0 +1,15 @@
+digraph 2.3 {
+    rankdir = LR;
+    node [shape = circle;];
+    
+    "S" [label = "-";xlabel = "S";];
+    "B" [label = " ";xlabel = "B";];
+    "A" [label = "+";xlabel = "A";];
+    
+    "S" -> "S" [label = "a";];
+    "S" -> "B" [label = "b";];
+    "B" -> "B" [label = "b";];
+    "B" -> "A" [label = "a";];
+    "A":n -> "A" [label = "a";];
+    "A":s -> "A" [label = "b";];
+}

@@ -1,0 +1,11 @@
+digraph {
+    rankdir = LR;
+    node [shape = circle;];
+    
+    "X" [label = "-";xlabel = "X";];
+    "Z" [label = "+";xlabel = "Z";];
+    // "A" [label = " ";xlabel = "A";];
+    // "B" [label = " ";xlabel = "B";];
+    
+    X -> Z [label = "a(ab)*(b+aa) + b(ba)*(a+bb)";];
+}
